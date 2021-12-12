@@ -9,7 +9,9 @@
   "feature": {
     "createdAt": true,
     "updatedAt": true,
-    "deletedAt": true
+    "deletedAt": true,
+    "siteId": true,
+    "status": true
   },
   "override": {
     "schema": true,

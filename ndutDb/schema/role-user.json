@@ -3,12 +3,20 @@
     "roleId": {
       "type": "Number",
       "required": true,
-      "precision": 0
+      "precision": 0,
+      "index": true
     },
     "userId": {
       "type": "Number",
       "required": true,
-      "precision": 0
+      "precision": 0,
+      "index": true
     }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "deletedAt": true,
+    "siteId": true
   }
 }

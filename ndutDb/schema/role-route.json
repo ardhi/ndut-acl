@@ -3,7 +3,8 @@
     "roleId": {
       "type": "Number",
       "required": true,
-      "dataType": "integer"
+      "dataType": "integer",
+      "index": true
     },
     "path": {
       "type": "String",
@@ -18,7 +19,8 @@
   "feature": {
     "createdAt": true,
     "updatedAt": true,
-    "deletedAt": true
+    "deletedAt": true,
+    "siteId": true
   },
   "override": {
     "schema": true,
