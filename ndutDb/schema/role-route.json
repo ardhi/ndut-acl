@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "roleId": {
+      "type": "Number",
+      "required": true,
+      "dataType": "integer"
+    },
+    "path": {
+      "type": "String",
+      "required": true,
+      "length": 255
+    },
+    "method": {
+      "type": "array",
+      "required": true
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "deletedAt": true
+  },
+  "override": {
+    "schema": true,
+    "builtinFixture": true
+  },
+  "disableAliasCall": false
+}

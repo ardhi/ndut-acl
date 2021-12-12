@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "roleId": {
+      "type": "Number",
+      "required": true,
+      "precision": 0
+    },
+    "userId": {
+      "type": "Number",
+      "required": true,
+      "precision": 0
+    }
+  }
+}
