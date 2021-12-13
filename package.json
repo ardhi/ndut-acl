@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/ardhi/ndut-acl#readme",
   "dependencies": {
-    "ndut-helper": "file:../ndut-helper"
+    "fastify-plugin": "^3.0.0"
   }
 }
