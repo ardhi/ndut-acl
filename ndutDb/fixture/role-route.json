@@ -1,6 +1,6 @@
 [{
   "roleId": 1,
-  "path": "*",
+  "path": "**",
   "method": ["*"],
   "siteId": 1
 }]
