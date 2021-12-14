@@ -1,6 +1,6 @@
 {
   "name": "ndut-acl",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple ACL for Ndut Framework",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "keywords": [
     "ndut",
     "acl",
+    "role",
     "framework",
     "fastify"
   ],
