@@ -3,7 +3,7 @@
     "roleId": {
       "type": "Number",
       "required": true,
-      "dataType": "integer",
+      "scale": 0,
       "index": true
     },
     "path": {

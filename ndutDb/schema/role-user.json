@@ -3,13 +3,13 @@
     "roleId": {
       "type": "Number",
       "required": true,
-      "precision": 0,
+      "scale": 0,
       "index": true
     },
     "userId": {
       "type": "Number",
       "required": true,
-      "precision": 0,
+      "scale": 0,
       "index": true
     }
   },
