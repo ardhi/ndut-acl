@@ -1,7 +1,6 @@
 module.exports = async function (request, reply) {
   if (!request.user) return
   if (!request.protectedRoute) return
-  const { _, outmatch } = this.ndut.helper
   const roleUser = await this.ndutDb.findOne('AclRoleUser', request, { where: { userId: request.user.id } })
   if (!roleUser) throw this.Boom.forbidden('User doesn\'t have any role yet')
   const role = await this.ndutDb.findOne('AclRole', request, { where: { id: roleUser.roleId, status: 'ENABLED' } })
