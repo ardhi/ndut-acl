@@ -20,9 +20,9 @@
     "createdAt": true,
     "updatedAt": true,
     "deletedAt": true,
-    "siteId": true
+    "ndutSiteSiteId": true
   },
-  "override": {
+  "extend": {
     "schema": true,
     "builtinFixture": true
   },
