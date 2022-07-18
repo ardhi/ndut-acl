@@ -1,6 +1,6 @@
 [{
-  "roleId": 1,
+  "gid": "ADMINS",
   "path": "**",
   "method": ["*"],
-  "siteId": 1
+  "siteId": "DEFAULT"
 }]

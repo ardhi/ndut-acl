@@ -3,13 +3,16 @@
     "name": {
       "type": "String",
       "length": 50,
+      "index": true,
       "required": true
-    }
+    },
+    "remark": "String"
   },
   "feature": {
     "createdAt": true,
     "updatedAt": true,
     "deletedAt": true,
+    "ndutAuthUserId": true,
     "ndutSiteSiteId": true,
     "status": true
   },

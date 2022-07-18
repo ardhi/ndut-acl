@@ -1,3 +1,1 @@
-module.exports = {
-  role: null
-}
+module.exports = require('../../lib/handle-dec-request')

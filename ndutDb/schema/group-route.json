@@ -1,15 +1,14 @@
 {
   "properties": {
-    "roleId": {
-      "type": "Number",
+    "gid": {
+      "type": "String",
+      "length": 20,
       "required": true,
-      "scale": 0,
       "index": true
     },
     "path": {
       "type": "String",
-      "required": true,
-      "length": 255
+      "required": true
     },
     "method": {
       "type": "array",
@@ -20,6 +19,7 @@
     "createdAt": true,
     "updatedAt": true,
     "deletedAt": true,
+    "ndutAuthUserId": true,
     "ndutSiteSiteId": true
   },
   "extend": {

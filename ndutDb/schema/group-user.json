@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "gid": {
+      "type": "String",
+      "length": 20,
+      "required": true
+    },
+    "uid": {
+      "type": "String",
+      "length": 20,
+      "required": true
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "deletedAt": true,
+    "ndutAuthUserId": true,
+    "ndutSiteSiteId": true
+  },
+  "indexes": {
+    "aclgroupuser_uniq": {
+      "keys": {
+        "gid": 1,
+        "uid": 1,
+        "siteId": 1
+      },
+      "options": {
+        "unique": true
+      }
+    }
+  }
+}
